@@ -22,7 +22,6 @@ Program to find the L and U matrix.
 Developed by: saravanan R
 RegisterNumber: 26008206
 */
-```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -39,7 +38,6 @@ Program to find the LU Decomposition of a matrix.
 Developed by: saravanan R
 RegisterNumber: 26008206
 */
-```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -49,6 +47,7 @@ B=np.array(eval(input()))
 lu,pivot=lu_factor(A)
 x=lu_solve((lu,pivot),B)
 print(x)
+
 
 ## Output:
 ![lu decomposition]()
